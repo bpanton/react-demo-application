@@ -1,0 +1,40 @@
+{
+  "name": "globe-demo",
+  "version": "1.0.0",
+  "description": "react shell",
+  "main": "lib/server.js",
+  "author": "bpanton",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.10.0"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "ejs": "^2.5.7",
+    "eslint-plugin-react": "^7.4.0",
+    "express": "^4.16.2",
+    "g": "^2.0.1",
+    "node": "^8.3.0",
+    "nodemon": "^1.12.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "require": "^2.4.20",
+    "webpack": "^3.8.1"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node lib/server.js",
+    "webpack": "webpack -wd"
+  }
+}
