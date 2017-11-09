@@ -1,0 +1,28 @@
+{
+    "Models": [
+        {
+            "model_name": "Anglia",
+            "model_make_id": "ford"
+        },
+        {
+            "model_name": "Corsair",
+            "model_make_id": "ford"
+        },
+        {
+            "model_name": "Cortina",
+            "model_make_id": "ford"
+        },
+        {
+            "model_name": "Mustang",
+            "model_make_id": "ford"
+        },
+        {
+            "model_name": "Zephyr",
+            "model_make_id": "ford"
+        },
+        {
+            "model_name": "Zodiac",
+            "model_make_id": "ford"
+        }
+    ]
+}
