@@ -42,17 +42,27 @@
   color: white;
   font-size: 16px;
   padding: 16px 32px;
+  align-self: center;
 }
 
 .attention {
-    font-size:33px;
+    font-size:38px;
     font-family: serif;
-    color: rgb(31, 119, 182);
+    color: rgb(34, 68, 92);
+    width: 500px;
+}
+
+.result {
+  font-size:26px;
+  font-family: serif;
+  color: rgb(36, 117, 172);
+  width: 500px;
 }
 
 .padLeft {
     padding-left: 20px;
     margin-top: -24px;
+    width: 400px;
 }
 
 .closeGap {
