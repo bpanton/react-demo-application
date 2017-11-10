@@ -5,7 +5,7 @@
 
 .container {
     position: relative;
-    width: 26%;
+    width: 100%;
 }
 
 .image {
@@ -51,10 +51,37 @@
 }
 
 .padLeft {
-    padding-left: 20px;
     margin-top: -24px;
 }
 
 .closeGap {
     margin-top: -30px;
+}
+
+.voice-to-text {
+    float: left;
+    width: 30%;
+}
+
+.auto-details {
+    float: right;
+    width: 70%;
+}
+
+.auto-data-list {
+    clear: both;
+}
+
+.auto-specs {
+    height: 100%;
+}
+
+.spec-table {
+    float: left;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.spec-table tr {
+    border: 1px solid black;
 }
