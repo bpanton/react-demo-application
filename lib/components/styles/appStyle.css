@@ -34,7 +34,7 @@
       margin-top: 35px;
     background-color: white;
     position: relative;
-    height: calc(100% - 35px);
+    height: calc(100% - 25px);
     min-width: 1050px;
     overflow: hidden;
     overflow-y: scroll;
