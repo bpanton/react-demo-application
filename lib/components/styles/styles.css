@@ -1,6 +1,10 @@
 .banner {
-    font-size: 25px;  
+    font-size: 32px;  
     font-weight: bold;
+    position: fixed;
+    margin-top: -85px;
+    text-align: center;
+    width: calc(100% - 150px);
   }
 
 .container {
@@ -9,12 +13,14 @@
 }
 
 .image {
-  opacity: 1;
-  display: block;
-  height:350px;
-  width:271px;
-  transition: .5s ease;
-  backface-visibility: hidden;
+    opacity: 1;
+    display: block;
+    height: 350px;
+    width: 235px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    text-align: center;
+    margin: -20px auto 0 auto;
 }
 
 .middle {
@@ -23,7 +29,7 @@
   position: absolute;
   width: 315px;
   top: 25%;
-  left: 25%;
+  left: 30%;
   transform: translate(-25%, -25%);
   -ms-transform: translate(-25%, -25%);
   cursor:pointer;
@@ -46,22 +52,21 @@
 }
 
 .attention {
-    font-size:38px;
+    font-size:44px;
     font-family: serif;
-    color: rgb(34, 68, 92);
-    width: 500px;
+    color: rgb(29, 45, 95);
 }
 
 .result {
-  font-size:26px;
-  font-family: serif;
-  color: rgb(36, 117, 172);
-  width: 500px;
+    font-size: 18px;
+    font-family: serif;
+    color: rgb(36, 117, 172);
+    margin: 5px;
 }
 
 .padLeft {
     margin-top: -24px;
-    width: 400px;
+    text-align: center;
 }
 
 .closeGap {
@@ -70,28 +75,60 @@
 
 .voice-to-text {
     float: left;
-    width: 30%;
+    width: 400px;
 }
 
 .auto-details {
     float: right;
-    width: 70%;
+    width: calc(100% - 400px);
+    position: absolute;
+    left: 390px;
 }
 
 .auto-data-list {
     clear: both;
+    margin-left: 5px;
+    float: left;
+    width: 60%;
+    transition: opacity 2s ease-in-out;
 }
 
 .auto-specs {
     height: 100%;
 }
 
-.spec-table {
+.model-table {
     float: left;
-    width: 50%;
+    width: 375px;
     border-collapse: collapse;
+    transition: opacity 2s ease-in-out;
 }
 
-.spec-table tr {
+.label {
+    background: linear-gradient(#2C91D6, #2C6A94) !important;
+    color: white;
+    width: 20%;
+}
+
+.model-table tr:nth-child(even) {
+    background: linear-gradient(#B6BEC3, #9FA4A6);
+}
+
+.spec-table {
+    width: calc(100% - 400px);
+    border-collapse: collapse;
+    margin-top: -190px;
+    float: right;
+    margin-right: 5px;
+    transition: opacity 2s ease-in-out;
+}
+
+.spec-table tr, .spec-table th, .model-table tr {
     border: 1px solid black;
+}
+
+.car-img {
+    position: relative;
+    animation: animateleft 2.0s;
+    width: 375;
 }
