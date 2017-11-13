@@ -104,18 +104,23 @@
     transition: opacity 2s ease-in-out;
 }
 
+.model-table td {
+    padding: 5px;
+}
+
 .label {
-    background: linear-gradient(#2C91D6, #2C6A94) !important;
+    background: linear-gradient(rgb(33, 126, 189), rgb(36, 94, 133)) !important;
     color: white;
     width: 20%;
+    text-align: left;
 }
 
 .model-table tr:nth-child(even) {
-    background: linear-gradient(#B6BEC3, #9FA4A6);
+    background: linear-gradient(rgb(219, 226, 230), rgb(186, 192, 196));
 }
 
 .spec-table {
-    width: calc(100% - 400px);
+    width: calc(100% - 400px);  
     border-collapse: collapse;
     margin-top: -190px;
     float: right;
@@ -123,8 +128,20 @@
     transition: opacity 2s ease-in-out;
 }
 
+.spec-table td {
+    padding: 2px 4px;
+}
+
+.spec-table th {
+    padding: 4px;
+}
+
+.spec-table tr:nth-child(even) {
+    background: linear-gradient(rgb(219, 226, 230), rgb(186, 192, 196));
+}
+
 .spec-table tr, .spec-table th, .model-table tr {
-    border: 1px solid black;
+    border: 1px solid rgb(70, 64, 64);
 }
 
 .car-img {
