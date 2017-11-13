@@ -62,6 +62,11 @@
 .padLeft {
     margin-top: -24px;
     width: 400px;
+    margin-left: 33px;
+}
+
+.padTitle {
+    margin-left: -10px;
 }
 
 .closeGap {
