@@ -12,8 +12,8 @@
 }
 
 .orange-block {
-  margin-top: 75px;
-  margin-left: 25px;
+  margin-top: 50px;
+  margin-left: 50px;
   background-color: #E36E05;
   position: absolute;
   width: calc(100% - 75px);  
@@ -24,14 +24,14 @@
 .blue-block {
   background-color: #102089;
   position: absolute;
-  margin-top: -25px;
-  margin-left: 25px;
+  margin-top: 25px;
+  margin-left: -25px;
   width: calc(100%);
   height: calc(100%);
 }
 
 .content {
-      margin-top: 35px;
+    margin-top: 35px;
     background-color: white;
     position: relative;
     height: calc(100% - 25px);
