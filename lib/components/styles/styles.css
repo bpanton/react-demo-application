@@ -126,6 +126,9 @@
     float: right;
     margin-right: 5px;
     transition: opacity 2s ease-in-out;
+    position: absolute;
+    left: 400px;
+    top: 195px;
 }
 
 .spec-table td {
@@ -147,5 +150,5 @@
 .car-img {
     position: relative;
     animation: animateleft 2.0s;
-    width: 375;
+    width: 375px;
 }
