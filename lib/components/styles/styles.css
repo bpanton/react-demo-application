@@ -122,13 +122,12 @@
 .spec-table {
     width: calc(100% - 400px);  
     border-collapse: collapse;
-    margin-top: -190px;
     float: right;
     margin-right: 5px;
     transition: opacity 2s ease-in-out;
     position: absolute;
     left: 400px;
-    top: 195px;
+    top: 0px;
 }
 
 .spec-table td {
