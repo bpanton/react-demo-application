@@ -2,6 +2,41 @@
     font: 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #4d4d4d;
     min-width: 750px;
-    max-width: 1050px;
-    margin: 0 auto;
-  }
+    max-width: calc(100% - 50px);
+    margin: -10px auto;
+    height: calc(100% - 25px);
+}
+
+.base {
+  background-color: rgb(134, 132, 131);
+}
+
+.orange-block {
+  margin-top: 75px;
+  margin-left: 25px;
+  background-color: #E36E05;
+  position: absolute;
+  width: calc(100% - 75px);  
+  min-width: 1100px;
+  height: calc(100% - 95px);
+}
+
+.blue-block {
+  background-color: #102089;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 25px;
+  width: calc(100%);
+  height: calc(100%);
+}
+
+.content {
+      margin-top: 35px;
+    background-color: white;
+    position: relative;
+    height: calc(100% - 25px);
+    min-width: 1050px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-top: 10px;
+}
