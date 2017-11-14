@@ -2,7 +2,7 @@
     font-size: 32px;  
     font-weight: bold;
     position: fixed;
-    margin-top: -85px;
+    margin-top: -105px;
     text-align: center;
     width: calc(100% - 150px);
   }
@@ -20,7 +20,7 @@
     transition: .5s ease;
     backface-visibility: hidden;
     text-align: center;
-    margin: -20px auto 0 auto;
+    margin: -30px auto 0 auto;
 }
 
 .middle {
@@ -90,7 +90,7 @@
     margin-left: 5px;
     float: left;
     width: 60%;
-    transition: opacity 2s ease-in-out;
+    animation: opac 1.5s
 }
 
 .auto-specs {
@@ -101,7 +101,7 @@
     float: left;
     width: 375px;
     border-collapse: collapse;
-    transition: opacity 2s ease-in-out;
+    animation: opac 1.5s;
 }
 
 .model-table td {
@@ -122,10 +122,12 @@
 .spec-table {
     width: calc(100% - 400px);  
     border-collapse: collapse;
-    margin-top: -190px;
     float: right;
     margin-right: 5px;
-    transition: opacity 2s ease-in-out;
+    animation: opac 2s;
+    position: absolute;
+    left: 400px;
+    top: 0px;
 }
 
 .spec-table td {
@@ -147,5 +149,5 @@
 .car-img {
     position: relative;
     animation: animateleft 2.0s;
-    width: 375;
+    width: 375px;
 }
